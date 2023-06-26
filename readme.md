@@ -1,4 +1,4 @@
-# What does this application does ? 
+# What does this application do ? 
 -> The primary purpose of this application is to extract and transform gzipped file and save the data into a table in postgres database. After the table is populated with data from gzipped file, A flask application is ran which reads the data from a database using postgres client and renders it onto a webpage in a table format. 
 
 
