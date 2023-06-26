@@ -1,8 +1,8 @@
 # python_postgres_flask_etl
-This repository contains code for an ETL application developed using python, flask and using postgres as a database. 
+This repository contains code for an ETL web application developed using python, flask and using postgres as a database. 
 
-# What does this application do ? 
--> The primary purpose of this application is to extract and transform gzipped file and save the data into a table in postgres database. After the table is populated with data from gzipped file, A flask application is ran which reads the data from a database using postgres client and renders it onto a webpage in a table format. 
+# What does this web application do ? 
+-> The web application reads a delimited file, cleans and processes the data, stores it in a PostgreSQL database, and displays the results in an HTML table. The application  also save the cleaned data to a new gzipped CSV file.
 
 
 # How to Run the application 
