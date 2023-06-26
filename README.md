@@ -11,3 +11,46 @@ In order to start the application, make sure all the required libraries are inst
 After step 1 is complete, run server.py flask application. 
 
 init.sql file contains all the DDl statements used to create the database and table. 
+
+                 +--------------+
+                 |  Delimited   |
+                 |     File     |
+                 +------+-------+
+                        |
+                        |
+                        v
+                 +------+-------+
+                 |              |
+                 | Data Cleaning|
+                 |  and Processing
+                 |              |
+                 +------+-------+
+                        |
+                        |
+                        v
+                 +------+-------+
+                 |              |
+                 | PostgreSQL  |
+                 |   Database   |
+                 |              |
+                 +------+-------+
+                        |
+                        |
+                        v
+                 +------+-------+
+                 |              |
+                 | HTML         |
+                 | Interface    |
+                 | (HTML Table) |
+                 |              |
+                 +------+-------+
+                        |
+                        |
+                        v
+                 +------+-------+
+                 |              |
+                 | Gzipped CSV  |
+                 |    File      |
+                 |              |
+                 +--------------+
+
