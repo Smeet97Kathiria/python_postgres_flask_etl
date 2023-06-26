@@ -1,0 +1,9 @@
+<!doctype html>
+<title>Simple tables</title>
+<link href="static/style.css" rel="stylesheet" type="text/css"/>
+<div class=page >
+  <h1>Parsed Data</h1>
+  {% for table in tables %}
+    {{ table|safe }}
+  {% endfor %}
+</div>
